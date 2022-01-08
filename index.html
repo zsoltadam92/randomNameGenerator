@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Név generátor</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="form-group">
+    <label for="lastName">Vezetéknév:</label>
+    <input type="text" placeholder="Írja be a vezetéknevet" id="lastName"  class="form-control" >
+  </div>
+  <div class="radio">
+    <div class="sex">
+      <span>Baba neme:</span>
+      <input type="radio" id="boy" name="sex">
+      <label>Fiú</label>
+      <input type="radio" id="girl" name="sex">
+      <label>Lány</label>
+    </div>
+    <div class="firstname-number">
+      <span for="">Keresztnevek száma:</span>
+      <label><input type="radio" name="name-number" id="number1"> 1</label>
+      <label><input type="radio" name="name-number" id="number2"> 2</label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Mehet</button>
+
+  <div id="fullRandomName"></div>
+</div>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
