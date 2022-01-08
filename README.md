@@ -1,2 +1,3 @@
 # randomNameGenerator
-Random name generator.
+
+Hungarian name generator.
