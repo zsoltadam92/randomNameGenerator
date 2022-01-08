@@ -63,7 +63,7 @@ button {
   body {
     background: url("./sixteen-miles-out-JImLxToIY1o-unsplash.jpg") no-repeat;
     background-size: cover;
-    background-position-x: left;
+    background-position-x: center;
   }
   .container {
     width: 70vw;
